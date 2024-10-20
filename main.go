@@ -17,6 +17,7 @@ func main() {
 	fmt.Println("program selesai")
 }
 
+// ini func fizzbuzz
 func fizzbuzz(n int) {
 	for i := 1; i <= n; i++ {
 		if i%3 == 0 && i%5 == 0 {
